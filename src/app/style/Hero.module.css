@@ -1,0 +1,67 @@
+/* Hero.module.css */
+
+.hero-bg {
+    background-color: #f0f4f8;
+    padding: 40px 0;
+  }
+  
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  @media (min-width: 1024px) { /* Applies to screens larger than 1024px, like laptops */
+    .hero-container {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  
+  .hero-text {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+  }
+  
+  .hero-title-lg {
+    font-size: 2.5rem;
+  }
+  
+  .hero-divider {
+    width: 60px;
+    height: 4px;
+    background-color: #6c63ff;
+    margin: 16px 0;
+  }
+  
+  .hero-description {
+    font-size: 1rem;
+    color: #555;
+    max-width: 600px;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  
+  .hero-button {
+    background-color: #6c63ff;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .hero-button:hover {
+    background-color: #5752d1;
+  }
+  
+  .hero-image {
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
